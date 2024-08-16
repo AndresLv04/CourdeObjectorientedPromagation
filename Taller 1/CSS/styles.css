@@ -1,0 +1,9 @@
+body{
+    background-color: #222;
+    margin: 0;
+}
+
+.container{
+    background-color: transparent;
+    box-shadow: 0 0 35px #fff2;
+}
