@@ -25,6 +25,14 @@ h2{
     border-radius: 8px;
 }
 
+input{
+    padding-left: 15px;
+    background-color: transparent;
+    border: none;
+    border-left: 4px solid #eee;
+    color: #eee
+}
+
 ul{
     font-size: 1.5em;
 }
@@ -39,11 +47,11 @@ a{
     padding-left: 10%;
 }
 h3{
+    font-size: 2em;
     color:#eee
-    
 }
 
 .container_ejercicios{
     max-width: 800px;
-    padding: 25px;
+    padding: 30px;
 }
