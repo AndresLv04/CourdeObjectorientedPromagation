@@ -67,7 +67,7 @@ h3{
     color:#eee
 }
 
-#ejercicio1, #ejercicio2{
+#ejercicio1, #ejercicio2, #ejercicio3{
     margin-top: 20px;
 }
 
@@ -93,10 +93,10 @@ label{
 }
 
 .container_resultado{
-    margin: 25px;
+    margin: 15px 0 25px 0;
 }
 
-#input_resultado1, #input_resultado2{
+#input_resultado1, #input_resultado2, #input_resultado3 {
     border: none;
     border-right: 2px solid #eee;
     border-left: 2px solid #eee;
@@ -111,7 +111,5 @@ button{
     box-shadow: 0 0 3px #eee9;
     border: 1px solid #fff2;
     border-radius: 5px;
-    
-
     color: #eee;
 }
