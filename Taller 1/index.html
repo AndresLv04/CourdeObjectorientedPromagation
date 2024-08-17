@@ -23,7 +23,7 @@
         
         <div class="container_ejercicios">
             <div class="container_ejercicio1">
-                <h3 id="ejercicio1"> Ejercicio 1:  <span>Calcular el área de un cuadradro</span></h3>
+                <h3 id="ejercicio1">Ejercicio 1:  <span>Calcular el área de un cuadradro</span></h3>
                 <p>Diseñe un algoritmo que calcule el área de un cuadrado, teniendo uno de sus  lados.
                 A = lado^2</p>
                 <label for="input_ejercicio1">Digite el lado del cuadrado:</label>
@@ -33,15 +33,31 @@
                     <label>El área del cuadrado es: </label>
                     <label for="" id="input_resultado1"></label>
                 </div>
-                
             </div>
             <div class="container_ejercicio2">
-                <h3 id="ejercicio2">Ejercicio 2</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?</p>
+                <h3 id="ejercicio2">Ejercicio 2: <span>Calcular el área de un circulo</span></h3>
+                <p>Diseñe un algoritmo que calcule el área de un círculo. areaCirculo = π r^2</p>
+                <label for="input_ejercicio2">Digite el radio del círculo: </label>
+                <input type="number" id="input_ejercicio2" placeholder="0">
+                <button type="button" id="calcular_ejercicio2" onclick="areaCirculo()">Calcular</button>
+                <div class="container_resultado">
+                    <label>El área del cuadrado es: </label>
+                    <label for="" id="input_resultado2"></label>
+                </div>
             </div>
             <div class="container_ejercicio3">
-                <h3 id="ejercicio3">Ejercicio 3</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?</p>
+                <h3 id="ejercicio3">Ejercicio 3: <span>Convertir C° a F° y viceversa</span></h3>
+                <p>Diseñe un algoritmo que convierta de grados centígrados a grados fahrenheit y
+                viceversa. C = F * (9/5) + 32    --   F = C - 32  * (5/9)</p>
+                
+                <div class="form_input">
+                    <label for="input_options">Eliga</label>
+                    <select name="tipo_operacion" id="tipo_operacion">
+                        <option value="CaF">Convertir °C a °F</option>
+                        <option value="FaC">Convertir °F a °C</option>
+                        <button type="button"></button>
+                    </select>
+                </div>
             </div>
             <div class="container_ejercicio4">
                 <h3 id="ejercicio4">Ejercicio 4</h3>

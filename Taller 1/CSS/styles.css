@@ -27,7 +27,7 @@ h2{
     border-radius: 8px;
 }
 
-input{
+input, select{
     width: 25%;
     box-sizing: border-box;
     padding: 6px 8px;
@@ -38,6 +38,11 @@ input{
     font-size: 1.25em;
     margin: 20px 0 20px 0px;
     color: #eee
+}
+select{
+    width: 200px;
+    background-color: #363636;
+    text-align: center;
 }
 
 ul{
@@ -62,7 +67,7 @@ h3{
     color:#eee
 }
 
-#ejercicio1{
+#ejercicio1, #ejercicio2{
     margin-top: 20px;
 }
 
@@ -91,7 +96,7 @@ label{
     margin: 25px;
 }
 
-#input_resultado1{
+#input_resultado1, #input_resultado2{
     border: none;
     border-right: 2px solid #eee;
     border-left: 2px solid #eee;
