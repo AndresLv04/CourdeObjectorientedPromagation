@@ -32,9 +32,8 @@ input{
     box-sizing: border-box;
     padding: 6px 8px;
     background-color: transparent;
-    border: none;
     border: 1px solid #eee;
-    box-shadow: 0 0 15px #0003;
+    box-shadow: 0 0 10px #fff2;
     border-radius: 4px;
     font-size: 1.25em;
     margin: 20px 0 20px 0px;
@@ -53,12 +52,12 @@ a{
 .list_ejercicios_expresiones{
     list-style: none;
     line-height: 2;
-    padding: 0px 35px 0px 0px;
+    padding: 0px 35px 0 0;
 
 }
 h3{
     font-size: 2.5em;
-    margin: 0 0 10px 0;
+    margin: 0px 0 22.5px 0;
     font-weight: 500;
     color:#eee
 }
@@ -105,7 +104,7 @@ button{
     margin-left: 12.5px;
     background-color: transparent;
     box-shadow: 0 0 3px #eee9;
-    border: 1px solid #eee;
+    border: 1px solid #fff2;
     border-radius: 5px;
     
 
