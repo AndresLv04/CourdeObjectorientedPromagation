@@ -4,6 +4,7 @@ body{
     color: #eee;
     font-size: 10px;
     box-sizing: border-box;
+    font-family: Montserrat;
 }
 
 h2{
@@ -12,6 +13,7 @@ h2{
     margin: 0;
     padding: 20px;
     font-size: 2.2em;
+    letter-spacing: 3px;
 }
 
 .container_list_ejercicios, .container_ejercicios{
@@ -26,10 +28,16 @@ h2{
 }
 
 input{
-    padding-left: 15px;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 6px 8px;
     background-color: transparent;
     border: none;
-    border-left: 4px solid #eee;
+    border: 1px solid #eee;
+    box-shadow: 0 0 15px #0003;
+    border-radius: 4px;
+    font-size: 1.25em;
+    margin: 20px 0 20px 0px;
     color: #eee
 }
 
@@ -39,19 +47,55 @@ ul{
 
 a{
     text-decoration: none;
+    color: #eee;
 }
 
 .list_ejercicios_expresiones{
     list-style: none;
     line-height: 2;
-    padding-left: 10%;
+    padding: 0px 35px 0px 0px;
+
 }
 h3{
-    font-size: 2em;
+    font-size: 2.5em;
+    margin: 0 0 10px 0;
+    font-weight: 500;
     color:#eee
+}
+
+#ejercicio1{
+    margin-top: 20px;
 }
 
 .container_ejercicios{
     max-width: 800px;
     padding: 30px;
+    background: linear-gradient(#fff2, transparent);
+    border: none;
+    border-top: 3px solid #eee9;
+}
+
+span{
+    font-weight: 400;
+}
+
+p{
+    font-size: 1.5em;
+    margin: 0;
+}
+label{
+    margin-right: 20px;
+    font-size: 1.35em;
+}
+
+.input_resultado{
+    border: none;
+    border-right: 2px solid #eee;
+    border-left: 2px solid #eee;
+    width: 15%;
+}
+
+button{
+    padding: 5px 10px;
+    margin: 12.5px;
 }
