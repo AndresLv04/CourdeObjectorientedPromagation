@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/styles.css">
         <link rel="stylesheet" href="CSS/fonts.css">
+        <script src="JavaScript/javaScript.js"></script>
         <title>Ejercicio de expresiones</title>
     </head>
     <body>    
@@ -27,10 +28,10 @@
                 A = lado^2</p>
                 <label for="input_ejercicio1">Digite el lado del cuadrado:</label>
                 <input type="number" placeholder="0" id="input_ejercicio1">
-                <button>Calcular</button>
+                <button type="button" id="calcular_ejercicio1" onclick="areaCuadrado()">Calcular</button>
                 <div class="container_resultado">
                     <label>El área del cuadrado es: </label>
-                    <input class="input_resultado" disabled type="number">
+                    <label for="" id="input_resultado1"></label>
                 </div>
                 
             </div>

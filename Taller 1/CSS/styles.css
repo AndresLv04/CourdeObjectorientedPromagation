@@ -88,14 +88,26 @@ label{
     font-size: 1.35em;
 }
 
-.input_resultado{
+.container_resultado{
+    margin: 25px;
+}
+
+#input_resultado1{
     border: none;
     border-right: 2px solid #eee;
     border-left: 2px solid #eee;
-    width: 15%;
+    border-radius: 3.5px;
+    padding: 4px 20px;
 }
 
 button{
     padding: 5px 10px;
-    margin: 12.5px;
+    margin-left: 12.5px;
+    background-color: transparent;
+    box-shadow: 0 0 3px #eee9;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    
+
+    color: #eee;
 }
