@@ -25,3 +25,54 @@ function grados(){
         
     }
 }
+
+function salario(){
+
+    /**
+         * las deducciones:
+         * Aporte a la salud 4%
+         * Aporte a la pensión 4%
+         * Retención de fuente 3%
+         */
+
+    const deducciones = 0.11;
+    var deduSalario = 0;
+    var comisión = 0;
+    var tiempoTrabajo = document.getElementById("tiempoTrabajo").value;
+    var ventas = document.getElementById("input_ventas").value;
+
+
+
+    if( tiempoTrabajo == "meDosAnos"){
+        const salario2Anos = 900000;
+        
+        deduSalario = salario2Anos * deducciones;
+    
+        comisión = 5000 * ventas;
+        let salNeto2Ano = (salario2Anos - deduSalario) + comisión;
+
+        document.getElementById("input_salarioBruto").innerHTML = salario2Anos;
+        document.getElementById("input_resultado4").innerHTML = salNeto2Ano;
+
+    }else if(tiempoTrabajo == "meCuaAnos"){
+        const salario4Anos = 1500000;
+    
+        deduSalario = salario4Anos * deducciones;
+
+        comisión = 7000 * ventas;
+        let salNeto4Ano = (salario4Anos - deduSalario) + comisión;
+
+        document.getElementById("input_salarioBruto").innerHTML = salario4Anos;
+        document.getElementById("input_resultado4").innerHTML = salNeto4Ano;
+
+    }else{
+        const salario5Anos = 2850000;
+
+        deduSalario = salario5Anos * deducciones;
+        comisión = 10000 * ventas;
+        let salNeto5Ano = (salario5Anos - deduSalario) + comisión;
+
+        document.getElementById("input_salarioBruto").innerHTML = salario5Anos;
+        document.getElementById("input_resultado4").innerHTML = salNeto5Ano;
+    }
+}
