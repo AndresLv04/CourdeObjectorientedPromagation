@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/styles.css">
         <link rel="stylesheet" href="CSS/fonts.css">
-        <script src="JavaScript/javaScript.js"></script>
+        <script src="JavaScript/class.js"></script>
         <title>Ejercicio de expresiones</title>
     </head>
     <body>    
@@ -28,7 +28,7 @@
                 A = lado^2</p>
                 <label for="input_ejercicio1">Digite el lado del cuadrado:</label>
                 <input type="number" placeholder="0" id="input_ejercicio1">
-                <button type="button" id="calcular_ejercicio1" onclick="areaCuadrado()">Calcular</button>
+                <button type="button" id="calcular_ejercicio1" onclick="ejercicioExpresiones.areaCuadrado()">Calcular</button>
                 <div class="container_resultado">
                     <label>El área del cuadrado es: </label>
                     <label for="" id="input_resultado1"></label>
@@ -39,7 +39,7 @@
                 <p>Diseñe un algoritmo que calcule el área de un círculo. areaCirculo = π r^2</p>
                 <label for="input_ejercicio2">Digite el radio del círculo: </label>
                 <input type="number" id="input_ejercicio2" placeholder="0">
-                <button type="button" id="calcular_ejercicio2" onclick="areaCirculo()">Calcular</button>
+                <button type="button" id="calcular_ejercicio2" onclick="ejercicioExpresiones.areaCirculo()">Calcular</button>
                 <div class="container_resultado">
                     <label>El área del circulo es: </label>
                     <label for="" id="input_resultado2"></label>
@@ -94,11 +94,23 @@
             </div>
             <div class="container_ejercicio5">
                 <h3 id="ejercicio5">Ejercicio 5: <span>Convertir pesos a dolares y pesos a euros</span></h3>
-                <p>Diseñe un algoritmo para convertir pesos a dolares y pesos a euros</p>
+                <p>Diseñe un algoritmo para convertir pesos a dolares y pesos a euros.</p>
+                <label for="">¿Cuantos pesos desea convetir a dolares y a euros?: </label>
+                <input type="number" id="input_ejercicio5" placeholder="150000">
+                <button type="button" id="calcular_ejercicio5" onclick="conversion()">Convertir</button>
+                <div class="container_resultado">
+                    <div class="resultado_dolares">
+                        <label for="" id="input_dolares"></label>
+                    </div>
+                    <div class="resultado_euros">
+                        <label for="" id="input_euros"></label>
+                    </div>
+                </div>
             </div>
             <div class="container_ejercicio6">
-                <h3 id="ejercicio6">Ejercicio 6</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim omnis veritatis repudiandae impedit minima amet quasi nulla vero pariatur cum, voluptatum quos, voluptatibus officia fuga facilis quo atque. Aut, hic?</p>
+                <h3 id="ejercicio6">Ejercicio 6: <span>Calcular el pago de un parqueadero por horas</span></h3>
+                <p> Diseñe un algoritmo para calcular el pago de un parqueadero por horas. 
+                    Valor de  la hora $2000 también se debe discriminar el IVA del 20% que se paga. </p>
             </div>
         </div>
     </body>

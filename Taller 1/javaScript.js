@@ -1,3 +1,5 @@
+
+
 function areaCuadrado(){
     let lado = document.getElementById("input_ejercicio1").value;
     let areaTotal = lado * lado;
@@ -75,4 +77,16 @@ function salario(){
         document.getElementById("input_salarioBruto").innerHTML = salario5Anos;
         document.getElementById("input_resultado4").innerHTML = salNeto5Ano;
     }
+}
+
+function conversion(){
+    const dolar = 4029;
+    const euro = 4462.24;
+    let pesos = document.getElementById("input_ejercicio5").value;
+    
+    let dolares = pesos / dolar;
+    let euros = pesos / euro;
+
+    document.getElementById("input_dolares").innerHTML = dolares.toFixed(2) + " dolares";
+    document.getElementById("input_euros").innerHTML = euros.toFixed(2) + " euros";
 }
