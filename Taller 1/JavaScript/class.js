@@ -10,7 +10,7 @@ class expresiones {
         const PI = 3.1416;
         let radio = document.getElementById("input_ejercicio2").value;
         let areaTotal = PI*Math.pow(radio,2);
-        document.getElementById("input_resultado2").innerHTML = areaTotal;
+        document.getElementById("input_resultado2").innerHTML = areaTotal.toFixed(3);
     }
 
     grados(){
