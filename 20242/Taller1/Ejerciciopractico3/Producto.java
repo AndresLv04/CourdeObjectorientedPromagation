@@ -29,7 +29,7 @@ public class Producto {
 
     public void calcularValorInventario(){
         int valor = cantidadStock * precio;
-        System.out.println("El valor del inventario de " + nombreProducto + " es: " + valor + " $"); 
+        System.out.println("El valor del inventario de " + nombreProducto + " con codigo " + codigo + " es: " + valor + " $"); 
     }
     
 } 
