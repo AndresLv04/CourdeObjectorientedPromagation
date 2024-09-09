@@ -1,7 +1,7 @@
 public class Perfume {
     private String nombre;
     private String marca;
-    private int capacidad;
+    private double capacidad;
     private double precio;
 
     public Perfume(String nombre, String marca, int capacidad, double precio){
@@ -23,7 +23,14 @@ public class Perfume {
     }
 
     public void ajustarPrecio(double nuevoPrecio){
-        if (nuevoPrecio > 0) this.precio = nuevoPrecio;
+        if (nuevoPrecio > 0) {
+            precio = nuevoPrecio;
+            System.out.println("Ahora el perfume cuesta: " + precio + " $");
+        }
         else System.out.println("No se permite precios negativos...");
+    }
+
+    public String getNombre(){
+        return nombre;
     }
 }
