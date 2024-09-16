@@ -3,13 +3,13 @@ public class Vendedor extends Trabajador{
     private double comision;
     public final double ventas = 120000.0;
 
-    public Vendedor(int id, String nombre, String area, double d){
+    public Vendedor(int id, String nombre, String area, double comision){
         super(id, nombre, area);
-        this.comision = d;
+        this.comision = comision;
 
     }
     
-    public double comision(){
+    public double getComision(){
         return comision;
     }
 
