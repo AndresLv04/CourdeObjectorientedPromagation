@@ -1,11 +1,11 @@
 public class Vendedor extends Trabajador{
 
-    private int comision;
+    private double comision;
     public final double ventas = 120000.0;
 
-    public Vendedor(int id, String nombre, String area, int comision){
+    public Vendedor(int id, String nombre, String area, double d){
         super(id, nombre, area);
-        this.comision = comision;
+        this.comision = d;
 
     }
     
@@ -14,6 +14,6 @@ public class Vendedor extends Trabajador{
     }
 
     public double salario(){
-        return ventas * 1.20;
+        return (ventas * (comision/100)) + ventas;
     }
 }
