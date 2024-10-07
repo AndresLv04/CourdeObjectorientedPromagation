@@ -19,3 +19,4 @@ class Analista extends Trabajador {
         return salarioIntegral;
     }
 }
+export default Analista;

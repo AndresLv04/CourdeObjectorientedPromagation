@@ -1,6 +1,3 @@
-import Trabajador from "./Trabajador.js";
-
-
 class Nomina {
     constructor(trabajadores) {
 
@@ -9,7 +6,7 @@ class Nomina {
 
     generarPagos(){
         for (let i = 0; i < this._trabajadores.length; i++) {
-            console.log(`${this._trabajadores[i].getClassName()} Pago generado: ${this._trabajadores[i].pagar()}`);
+            console.log(`${this._trabajadores[i].constructor.name} ${this._trabajadores[i]. getNombres} pago generado: ${this._trabajadores[i].pagar()}`);
         }
     }
     
