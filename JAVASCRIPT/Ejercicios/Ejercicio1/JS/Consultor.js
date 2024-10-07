@@ -18,7 +18,7 @@ class Consultor extends Trabajador {
         let tComision = consultas * (this._Pcomision/100);
         let tPagar = tComision + this.SALARIO_BASICO;
         
-        return  `Consultor ${this.getNombres} su salario es: ${tPagar} `;
+        return  tPagar;
     }
 }
 

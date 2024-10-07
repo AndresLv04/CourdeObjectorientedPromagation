@@ -9,7 +9,7 @@ class Operario extends Trabajador {
     pagar(){
         let horas = prompt("¿Cuantas horas trabajaste?:")
         let tPagar = horas * this._valorHora;
-        return `Operario: ${this.getNombres} su salario es: ${tPagar}`;
+        return tPagar;
     }
 }
 

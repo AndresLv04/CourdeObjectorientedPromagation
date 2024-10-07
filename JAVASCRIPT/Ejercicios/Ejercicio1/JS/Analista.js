@@ -16,6 +16,6 @@ class Analista extends Trabajador {
         let prestaciones = transporte + prima + cesantias + salud;
         let salarioIntegral = this._BASE + prestaciones;
 
-        return `Analista ${this.getNombres} su salario es: ${salarioIntegral}`;
+        return salarioIntegral;
     }
 }
